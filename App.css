@@ -1,0 +1,56 @@
+
+.background{
+  background-color: bisque;
+  width: 100vw;
+  height: 100vh;
+} 
+
+.container{
+  background-color: rgb(79, 106, 97);
+  height: 60vh;
+  width: 30%;
+  margin-left: 30%;
+  text-align: center;
+  margin-top: 10%;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.display input{
+  width: 90%;
+  background-color: cornflowerblue;
+  font-size: 30px;
+  text-align: right;
+  margin: 30px 0px;
+} 
+form div input{
+  background-color: blueviolet;
+  width: 15%;
+  text-align: center;
+  margin:3px 3px 4px 4px ;
+  font-size: 35px;
+}
+
+form div input:hover{
+  cursor: pointer;
+  background-color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+  .container{
+      width: 90%;
+      margin: 10px 15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container{
+      width: 60%;
+       margin: 8% 15%;
+       height: 80%;
+  }
+
+  form div input{
+     
+      height: auto;
+  }
+}
